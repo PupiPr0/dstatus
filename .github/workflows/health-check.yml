@@ -4,8 +4,8 @@ name: Scheduled Health Check
 on:
   schedule:
     #- cron: "*/1 * * * *"
-   # - cron: "*/6 * * * *"
-   - cron: "30 * * * *"
+    - cron: "*/6 * * * *"
+   #- cron: "30 * * * *"
 
 jobs:
   health_check_job:
