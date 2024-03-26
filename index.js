@@ -2,6 +2,7 @@ const maxDays = 8; //30
 const dkon = new Date();
 
 
+
 async function genReportLog(container, key, url) {
   const response = await fetch("https://status.dkon.app/logs/" + key + "_report.log?hash=" + dkon.getTime());
   let statusLines = "";
